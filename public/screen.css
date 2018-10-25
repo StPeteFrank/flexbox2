@@ -4,15 +4,15 @@ html {
 }
 
 body {
-  margin: 0;
+  margin: 60px;
   min-height: 100%;
-  background-color: rgb(11, 124, 145);
+  background-color: rgb(7, 118, 138);
 }
 .page1 {
   display: flex;
-  border: 900px;
-  padding: 60px;
-  color: skyblue;
+  justify-content: flex-start;
+  border: 1000px;
+  background-color: rgb(190, 234, 245);
 }
 h1 {
   font-family: 'noto serif', serif;
@@ -20,12 +20,12 @@ h1 {
 }
 .navigation1 {
   display: flex;
-  border: 9;
+  border: 0;
   padding: 0;
   margin: 0;
   list-style: none;
   height: 18px;
-  background-color: skyblue;
+  background-color: rgb(43, 183, 201);
   display: flex;
   flex-direction: row;
   text-align: center;
